@@ -1,0 +1,109 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root{
+	--color-naranja:#ffaf70;
+	--color-titulos:#333;
+	--color-gris:#f2f4ec;
+	--color-hover-menu:#eee;
+	--bg-footer:#1a2130;
+	--bg-header:#ff5f6d;
+	--color-primario:#f75160;
+	--bg-sections:#faf9ff;
+}
+
+@font-face{
+	font-family: "Raleway";
+	src: url("../fonts/Raleway-VariableFont_wght.ttf") format("TrueType"),
+		}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #888;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#hero{
+	padding:3%;
+	
+}
+
+#about{
+	padding:3%;
+	background-color: #cce4e4;
+	
+}
+
+#hero h1{
+	padding-bottom:2%;
+	padding-top:2%;
+	font-size: 55px;
+	font-weight:bold;
+	
+}
+
+
+#about h2{
+	font-weight: bold;
+	
+}
+
+.btn-light{
+	font-weight: bold;
+	
+}
+
+.custom-paragraph{
+	font-weight: bold;
+	
+}
+
+#clients{
+	padding:5%;
+	opacity: 20%;
+	
+}
+
+#countries {
+	text-align:center;
+	padding: 5%;
+	}
+
+#countries h1{
+	color: #282d33;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.btn-light{
+	background-color:#FEDB7A;
+	color: #0000;
+	font-size: 13px;
+}
+
+
+.countries-image {
+	display: block; 
+    margin: auto;
+	width:700px;
+	}
+
+
+#subscribe{
+	padding:3%;
+	background-color: #d6bbf6;
+	
+}
+
+#subscribe h2{
+	font-weight:bold;
+}
+
+footer{
+	padding: 3%;
+}
+
+
